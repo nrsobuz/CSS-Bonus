@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+<Style>
+
+.container{
+    display: flex;
+    position: relative;
+
+}
+
+.box{ 
+    width: 200px; 
+    height: 200px;
+    margin: 5px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+box-2{
+    position: relative;
+    left: -50px;
+    z-index: 2;
+}
+
+
+.box-2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+   
+}
+
+
+.box-3{
+    z-index: 1;
+
+}
+
+</Style>
+
+
+ 
+
+
+
+</head>
+<body>
+    <H1>Position</H1>
+    <h3>More Position</h3>
+    <section class="container">
+<div class="box box-1">
+    <h3>bix-1</h3>
+</div>
+<div class="box box-2">
+    <h3>bix-2</h3>
+</div>
+<div class="box box-3">
+    <h3>bix-3</h3>
+</div>
+<div class="box box-4">
+    <h3>bix-4</h3>
+</div>
+
+    </section>
+
+    
+</body>
+</html>
